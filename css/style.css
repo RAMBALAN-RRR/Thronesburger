@@ -458,7 +458,7 @@ section {
 
 .shop .box-container .box .image img {
   height: 100%;
-  width: 100%;
+  width: 90%;
   -o-object-fit: cover;
      object-fit: cover;
 }
