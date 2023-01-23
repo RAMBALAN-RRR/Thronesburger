@@ -13,6 +13,8 @@
   transition: .2s linear;
 }
 
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -427,12 +429,61 @@ section {
       flex-wrap: wrap-reverse;
 }
 
+/* circle start */
+#circle .box-container1 img{
+  /* display: -ms-grid; */
+  display: flex;
+  border-radius: 20rem;
+  width: 10rem;
+  height:10rem;
+}
+#circle .box-container1{
+  align-items: center;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  column-gap:10rem ;
+  margin-left: 2rem;
+}
+#circle .box-container1 h3{
+  text-align: center;
+}
+
+/*.circle .box-container1.box1 {
+  position: relative;
+  overflow: hidden;
+  
+
+}
+
+.circle .box-container1 .box1:hover .image img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+
+.circle .box-container1 .box1 .image {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  
+}
+
+.circle .box-container1 .box1 .image img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}*/
+/* Circle End */
+
 .shop .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  -ms-grid-columns: (minmax(50rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  gap: 1.5 rem;
 }
 
 .shop .box-container .box {
@@ -458,7 +509,7 @@ section {
 
 .shop .box-container .box .image img {
   height: 100%;
-  width: 90%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -619,7 +670,7 @@ section {
 .plan .box-container .box .amount span {
   font-size: 3rem;
 }
-
+/*contact*/
 .contact {
   padding: 2rem 0;
   display: -webkit-box;
